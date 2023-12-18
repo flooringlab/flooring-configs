@@ -1,0 +1,14 @@
+{
+  "name": "@flooring/tsconfig",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Flooring Labs",
+  "description": "Flooring Labs shared typescript configs",
+  "keywords": [],
+  "files": [
+    "tsconfig.json"
+  ],
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
