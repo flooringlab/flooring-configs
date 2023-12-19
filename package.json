@@ -20,7 +20,8 @@
     "clear": "concurrently 'rimraf packages/*/node_modules' 'rimraf node_modules'",
     "lint": "eslint 'packages/**/*.{js,cjs,mjs,ts,tsx}'",
     "prepare": "husky install",
-    "prettier": "prettier --write . --list-different"
+    "prettier": "prettier --write . --list-different",
+    "publish": "pnpm publish -r"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
