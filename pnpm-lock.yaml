@@ -14,12 +14,12 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^18.4.3
         version: 18.4.3
-      '@flooringlabs/eslint':
+      '@flooringlabs/eslint-config':
         specifier: workspace:*
-        version: link:packages/eslint
-      '@flooringlabs/prettier':
+        version: link:packages/eslint-config
+      '@flooringlabs/prettier-config':
         specifier: workspace:*
-        version: link:packages/prettier
+        version: link:packages/prettier-config
       '@flooringlabs/tsconfig':
         specifier: workspace:*
         version: link:packages/tsconfig
@@ -45,7 +45,7 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  packages/eslint:
+  packages/eslint-config:
     devDependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.15.0
@@ -84,7 +84,7 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(@typescript-eslint/eslint-plugin@6.15.0)(eslint@8.56.0)
 
-  packages/prettier:
+  packages/prettier-config:
     devDependencies:
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^4.3.0
@@ -118,7 +118,7 @@ packages:
     resolution: {integrity: sha512-oLcVCTeIFadUoArDTwpluncplrYBmTCCZZgXCbgNGvOBBiSDDK3eWO4b/+eOTli5tKv1lg+a5/NAXg+nTcei1w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.23.6
       jsesc: 2.5.2
       source-map: 0.5.7
     dev: true
@@ -184,7 +184,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.23.6
     dev: true
 
   /@babel/runtime@7.23.6:

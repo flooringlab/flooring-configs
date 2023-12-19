@@ -1,5 +1,5 @@
 {
-  "name": "@flooringlabs/eslint",
+  "name": "@flooringlabs/eslint-config",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Flooring Labs",
@@ -8,7 +8,7 @@
     "flooring",
     "eslint"
   ],
-  "main": "eslint.json",
+  "main": "base.json",
   "files": [
     "*.json"
   ],
