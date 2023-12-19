@@ -1,13 +1,3 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "lib": ["esnext"],
-    "resolveJsonModule": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "removeComments": true
-  }
+  "extends": ["@flooring/tsconfig"]
 }

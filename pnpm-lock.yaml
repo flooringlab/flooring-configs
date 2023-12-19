@@ -20,6 +20,9 @@ importers:
       '@flooring/prettier':
         specifier: workspace:*
         version: link:packages/prettier
+      '@flooring/tsconfig':
+        specifier: workspace:*
+        version: link:packages/tsconfig
       '@osskit/eslint-config':
         specifier: ^1.0.21
         version: 1.0.21(eslint@8.56.0)

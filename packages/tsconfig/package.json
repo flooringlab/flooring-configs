@@ -5,8 +5,9 @@
   "author": "Flooring Labs",
   "description": "Flooring Labs shared typescript configs",
   "keywords": [],
+  "main": "./tsconfig.json",
   "files": [
-    "tsconfig.json"
+    "*.json"
   ],
   "peerDependencies": {
     "typescript": "^5.3.3"
