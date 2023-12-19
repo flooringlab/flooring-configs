@@ -2,7 +2,7 @@
   "env": {
     "browser": true
   },
-  "extends": ["./eslint.json", "plugin:react-hooks/recommended", "plugin:react/recommended"],
+  "extends": ["./base.json", "plugin:react-hooks/recommended", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
