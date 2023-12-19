@@ -1,9 +1,9 @@
 {
-  "name": "@flooringlabs/tsconfig",
+  "name": "@flooringlab/tsconfig",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "Flooring Labs",
-  "description": "Flooring Labs shared typescript configs",
+  "author": "Flooring Lab",
+  "description": "Flooring Lab's shared typescript configs",
   "keywords": [],
   "main": "./tsconfig.json",
   "files": [

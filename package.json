@@ -1,10 +1,16 @@
 {
-  "name": "@flooringlabs/configs",
+  "name": "@flooringlab/configs",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "Flooring Labs",
-  "description": "Flooring Labs front-end engineering configs",
-  "keywords": [],
+  "author": "Flooring Lab",
+  "description": "Flooring Lab's front-end engineering configs",
+  "keywords": [
+    "flooring lab",
+    "config",
+    "eslint",
+    "prettier",
+    "tsconfig"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:flooringlab/flooring-configs.git"
@@ -14,22 +20,21 @@
     "node": ">=18.19.0"
   },
   "scripts": {
-    "@prettier": "pnpm -F @flooringlabs/prettier-config",
-    "@tsconfig": "pnpm -F @flooringlabs/tsconfig",
-    "@eslint": "pnpm -F @flooringlabs/eslint-config",
+    "@prettier": "pnpm -F @flooringlab/prettier-config",
+    "@tsconfig": "pnpm -F @flooringlab/tsconfig",
+    "@eslint": "pnpm -F @flooringlab/eslint-config",
+    "@fixtures": "pnpm -F @flooringlab/fixtures",
     "clear": "concurrently 'rimraf packages/*/node_modules' 'rimraf node_modules'",
     "lint": "eslint 'packages/**/*.{js,cjs,mjs,ts,tsx}'",
     "prepare": "husky install",
-    "prettier": "prettier --write . --list-different",
-    "publish": "pnpm publish -r"
+    "prettier": "prettier --write . --list-different"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
-    "@flooringlabs/eslint-config": "workspace:*",
-    "@flooringlabs/prettier-config": "workspace:*",
-    "@flooringlabs/tsconfig": "workspace:*",
-    "@osskit/eslint-config": "^1.0.21",
+    "@flooringlab/eslint-config": "workspace:*",
+    "@flooringlab/prettier-config": "workspace:*",
+    "@flooringlab/tsconfig": "workspace:*",
     "concurrently": "^8.2.2",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",

@@ -1,9 +1,9 @@
 {
-  "name": "@flooringlabs/prettier-config",
+  "name": "@flooringlab/prettier-config",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "Flooring Labs",
-  "description": "Flooring Labs shared prettier configs",
+  "author": "Flooring Lab",
+  "description": "Flooring Lab's shared prettier configs",
   "keywords": [
     "flooring",
     "prettier"

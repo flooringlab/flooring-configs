@@ -1,11 +1,11 @@
 {
-  "name": "@flooringlabs/eslint-config",
+  "name": "@flooringlab/eslint-config",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "Flooring Labs",
-  "description": "Flooring Labs shared eslint configs",
+  "author": "Flooring Lab",
+  "description": "Flooring Lab's shared eslint configs",
   "keywords": [
-    "flooring",
+    "flooring lab",
     "eslint"
   ],
   "main": "base.json",

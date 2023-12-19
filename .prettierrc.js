@@ -1,1 +1,1 @@
-module.exports = require('@flooringlabs/prettier-config');
+module.exports = require('@flooringlab/prettier-config');
