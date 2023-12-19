@@ -5,6 +5,10 @@
   "author": "Flooring Labs",
   "description": "Flooring Labs front-end engineering configs",
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flooringlab/flooring-configs.git"
+  },
   "packageManager": "pnpm@8.12.1",
   "engines": {
     "node": ">=18.19.0"
@@ -13,7 +17,7 @@
     "@prettier": "pnpm -F @flooring/prettier",
     "@tsconfig": "pnpm -F @flooring/tsconfig",
     "@eslint": "pnpm -F @flooring/eslint",
-    "clear": "concurrently 'rimraf packages/*/node_modules' 'rimraf node_modules' ",
+    "clear": "concurrently 'rimraf packages/*/node_modules' 'rimraf node_modules'",
     "lint": "eslint 'packages/**/*.{js,cjs,mjs,ts,tsx}'",
     "prepare": "husky install",
     "prettier": "prettier --write . --list-different"

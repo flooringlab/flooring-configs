@@ -9,6 +9,10 @@
   "files": [
     "*.json"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "peerDependencies": {
     "typescript": "^5.3.3"
   }
