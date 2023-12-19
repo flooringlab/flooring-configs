@@ -1,3 +1,0 @@
-"*.{mjs,cjs,js,ts}":
-  - "prettier --write"
-  - "eslint"

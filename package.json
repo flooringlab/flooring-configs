@@ -12,13 +12,23 @@
   "scripts": {
     "@prettier": "pnpm -F @flooring/prettier",
     "@tsconfig": "pnpm -F @flooring/tsconfig",
-    "@eslint": "pnpm -F @flooring/eslint"
+    "@eslint": "pnpm -F @flooring/eslint",
+    "clear": "concurrently 'rimraf packages/*/node_modules' 'rimraf node_modules' ",
+    "lint": "eslint 'packages/**/*.{js,cjs,mjs,ts,tsx}'",
+    "prepare": "husky install",
+    "prettier": "prettier --write . --list-different"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
+    "@flooring/eslint": "workspace:*",
+    "@flooring/prettier": "workspace:*",
+    "@osskit/eslint-config": "^1.0.21",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.56.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
+    "rimraf": "^5.0.5",
     "typescript": "^5.3.3"
   }
 }
