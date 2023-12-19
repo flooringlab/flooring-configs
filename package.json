@@ -1,5 +1,5 @@
 {
-  "name": "@flooring/configs",
+  "name": "@flooringlabs/configs",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Flooring Labs",
@@ -14,9 +14,9 @@
     "node": ">=18.19.0"
   },
   "scripts": {
-    "@prettier": "pnpm -F @flooring/prettier",
-    "@tsconfig": "pnpm -F @flooring/tsconfig",
-    "@eslint": "pnpm -F @flooring/eslint",
+    "@prettier": "pnpm -F @flooringlabs/prettier",
+    "@tsconfig": "pnpm -F @flooringlabs/tsconfig",
+    "@eslint": "pnpm -F @flooringlabs/eslint",
     "clear": "concurrently 'rimraf packages/*/node_modules' 'rimraf node_modules'",
     "lint": "eslint 'packages/**/*.{js,cjs,mjs,ts,tsx}'",
     "prepare": "husky install",
@@ -25,9 +25,9 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
-    "@flooring/eslint": "workspace:*",
-    "@flooring/prettier": "workspace:*",
-    "@flooring/tsconfig": "workspace:*",
+    "@flooringlabs/eslint": "workspace:*",
+    "@flooringlabs/prettier": "workspace:*",
+    "@flooringlabs/tsconfig": "workspace:*",
     "@osskit/eslint-config": "^1.0.21",
     "concurrently": "^8.2.2",
     "eslint": "^8.56.0",

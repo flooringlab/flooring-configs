@@ -14,13 +14,13 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^18.4.3
         version: 18.4.3
-      '@flooring/eslint':
+      '@flooringlabs/eslint':
         specifier: workspace:*
         version: link:packages/eslint
-      '@flooring/prettier':
+      '@flooringlabs/prettier':
         specifier: workspace:*
         version: link:packages/prettier
-      '@flooring/tsconfig':
+      '@flooringlabs/tsconfig':
         specifier: workspace:*
         version: link:packages/tsconfig
       '@osskit/eslint-config':
