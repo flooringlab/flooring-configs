@@ -6,10 +6,12 @@ module.exports = {
   importOrderSortSpecifiers: true,
   importOrderCaseInsensitive: true,
   importOrderParserPlugins: ['typescript', 'decorators-legacy'],
+  arrowParens: 'avoid',
   singleQuote: true,
+  semi: true,
   trailingComma: 'all',
   bracketSpacing: true,
   useTabs: false,
-  printWidth: 100,
+  printWidth: 75,
   proseWrap: 'preserve',
 };
