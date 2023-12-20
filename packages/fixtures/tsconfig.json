@@ -1,4 +1,0 @@
-{
-  "extends": ["@flooringlab/tsconfig"],
-  "include": ["*.ts"]
-}
