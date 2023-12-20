@@ -2,7 +2,11 @@
   "env": {
     "browser": true
   },
-  "extends": ["./base.json", "plugin:react-hooks/recommended", "plugin:react/recommended"],
+  "extends": [
+    "plugin:react-hooks/recommended",
+    "plugin:react/recommended",
+    "./base.json"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
